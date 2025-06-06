@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+body {
+    background-color: #0000FF; 
+    color: white;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+}
+
+.onigiriGroup {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.triangle{
+  width: 60px;
+  height: 0px;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 150px solid rgb(21, 207, 49);
+  border-radius: 20px;
+}
+.triangle1{
+  width: 60px;
+  height: 0px;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 120px solid rgba(183, 140, 233, 0.908);
+  border-radius: 20px;
+}
+.triangle2{
+  width: 60px;
+  height: 0px;
+  border-left: 100px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 100px solid rgb(11, 161, 146);
+  border-radius: 20px;
+  margin-left: -80px;
+}
+.triangle3{
+  width: 60px;
+  height: 0px;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 100px solid rgb(21, 207, 49);
+  border-radius: 20px;
+    margin-left: -100px;
+}
+.triangle4{
+  width: 60px;
+  height: 0px;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 100px solid rgb(21, 207, 49);
+  border-radius: 20px;
+    margin-left: -100px;
+}
+.triangle5{
+  width: 60px;
+  height: 0px;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 100px solid rgb(36, 248, 188);
+  border-radius: 20px;
+    margin-left: -200px;
+}
+
+    .jizo {
+      zoom: 30%;
+      position: absolute;
+      top: 400px;
+      width: auto;
+      height: 180px;
+      margin-left: 20px;
+    }
+
+    /* 頭部 */
+    .head {
+      width: 80px;
+      height: 80px;
+      background-color: #f5d4b6; /* 肌色 */
+      border-radius: 50%;
+      position: absolute;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    /* 帽子 */
+    .hat {
+      width: 100px;
+      height: 50px;
+      background-color: red; /* 赤色の帽子 */
+      border-radius: 50px 50px 0 0;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    /* 体 */
+    .body {
+      width: 100px;
+      height: 120px;
+      background-color: gray; /* 灰色の衣 */
+      border-radius: 50px 50px 10px 10px;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    /* 顔の表情 */
+    .eyes {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: black;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      top: 45px;
+    }
+
+    .mouth {
+      width: 20px;
+      height: 5px;
+      border-radius: 10px;
+      top: 65px;
+    }
+
+    .playField {
+  width:auto;
+  height: 150px;
+  border: 1px solid rgb(240, 233, 233); 
+  border-radius: 1rem;
+  align-items: center;
+  border-width: 10px;
+}
