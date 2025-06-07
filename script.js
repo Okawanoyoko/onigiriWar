@@ -1,5 +1,5 @@
 'use strict';
-'use strict';
+
 
 window.onclick = function() {
     // **edo-man2 の取得**
