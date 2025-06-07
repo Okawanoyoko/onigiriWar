@@ -1,10 +1,10 @@
 @charset "UTF-8";
-
 body {
     background-color: #0000FF; 
     color: white;
     font-family: 'Courier New', monospace;
     text-align: center;
+    height: fit-content;
 }
 
 .onigiriGroup {
@@ -28,13 +28,14 @@ body {
   border-right: 150px solid transparent;
   border-bottom: 120px solid rgba(183, 140, 233, 0.908);
   border-radius: 20px;
+  margin-left: -50px;
 }
 .triangle2{
   width: 60px;
   height: 0px;
   border-left: 100px solid transparent;
   border-right: 150px solid transparent;
-  border-bottom: 100px solid rgb(11, 161, 146);
+  border-bottom: 180px solid rgb(11, 161, 146);
   border-radius: 20px;
   margin-left: -80px;
 }
@@ -43,7 +44,7 @@ body {
   height: 0px;
   border-left: 100px solid transparent;
   border-right: 100px solid transparent;
-  border-bottom: 100px solid rgb(21, 207, 49);
+  border-bottom: 120px solid rgb(21, 207, 49);
   border-radius: 20px;
     margin-left: -100px;
 }
@@ -54,28 +55,19 @@ body {
   border-right: 100px solid transparent;
   border-bottom: 100px solid rgb(21, 207, 49);
   border-radius: 20px;
-    margin-left: -100px;
+    margin-left: -30px;
 }
-.triangle5{
-  width: 60px;
-  height: 0px;
-  border-left: 100px solid transparent;
-  border-right: 100px solid transparent;
-  border-bottom: 100px solid rgb(36, 248, 188);
-  border-radius: 20px;
-    margin-left: -200px;
-}
+
 
     .jizo {
-      zoom: 30%;
+      zoom: 70%;
       position: absolute;
-      top: 400px;
+      top: 200px;
       width: auto;
-      height: 180px;
-      margin-left: 20px;
+      height: 200px;
+      margin-left: 70px;
     }
 
-    /* 頭部 */
     .head {
       width: 80px;
       height: 80px;
@@ -114,13 +106,15 @@ body {
     /* 顔の表情 */
     .eyes {
       position: absolute;
-      left: 50%;
+      left: 30%;
       transform: translateX(-50%);
       background-color: black;
-      width: 10px;
+      width: 20px;
       height: 10px;
-      border-radius: 50%;
-      top: 45px;
+      border-radius: 60%;
+      top: 30px;
+      margin-left: 40px;
+
     }
 
     .mouth {
@@ -132,9 +126,90 @@ body {
 
     .playField {
   width:auto;
-  height: 150px;
+  height: 400px;
   border: 1px solid rgb(240, 233, 233); 
   border-radius: 1rem;
   align-items: center;
   border-width: 10px;
+}  
+
+
+
+
+/* プレイヤーの体 */
+        .edo-man2 {
+            zoom: 60%;
+            position: absolute;
+            width: 100px;
+            height: 200px;
+            bottom: -20px;
+        }
+
+        /* 頭部 */
+        .head2 {
+            width: 60px;
+            height: 60px;
+            background-color: #ffcc99;
+            border-radius: 50%;
+            position: absolute;
+            top: 10px;
+            left: 20px;
+
+        }
+
+        /* 髷（まげ） */
+        .mage2 {
+            width: 40px;
+            height: 20px;
+            background-color: black;
+            border-radius: 50%;
+            position: absolute;
+            top: -10px;
+            left: 30px;
+        }
+
+        /* 目 */
+        .eyes2 {
+            width: 10px;
+            height: 10px;
+            background-color: black;
+            border-radius: 50%;
+            position: absolute;
+            top: 25px;
+        }
+
+        .eyes2.left2 {
+            left: 15px;
+        }
+
+        .eyes2.right2 {
+            left: 35px;
+        }
+
+        /* 着物 */
+        .kimono2 {
+            width: 80px;
+            height: 120px;
+            background-color: #483d8b;
+            position: absolute;
+            top: 70px;
+            left: 10px;
+            border-radius: 10px;
+        }
+
+        /* 袴 */
+        .hakama2 {
+            width: 100px;
+            height: 50px;
+            background-color: #2f4f4f;
+            position: absolute;
+            top: 190px;
+            left: 0;
+        }
+
+.onigiri {
+    position: absolute;
+    z-index: 9999;
+
 }
+
